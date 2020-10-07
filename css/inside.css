@@ -1,0 +1,63 @@
+.header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    padding: 20px 0;
+}
+.navbar-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #262626;
+}
+.nav-item{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link
+{
+    background-color: #262626;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #262626;
+    padding: 5px 15px;
+}
+
+  .jumbotron{
+    height: 300px;
+    background: url(https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#sticky-footer {
+    flex-shrink: none;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    margin-bottom:0px;
+  }
+  body{
+      margin-bottom:0px;
+  }
+  th,tr,td{
+      padding: 4px 7px 4px 7px;
+  }
+  .logout{
+      background-color:transparent;
+      border:1px solid transparent;
+      font-weight: 800;
+    text-transform: uppercase;
+    color:#fff;
+  }
+  p{
+      font-style:bold;
+      font-family:georgia;
+      font-size:40px;
+  }
